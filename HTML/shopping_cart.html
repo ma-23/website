@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--mahmood eyad abu hassnah   2235646-->
+<html>
+
+<head>
+<link href = "../CSS/css_file.css" rel = "stylesheet" type = "text/css"/>
+<title>Shopping List</title>
+
+</head>
+
+
+<body>
+
+
+
+<!--The homepage picture and the shopping cart page. The head of the page. This div is for the head of the every page-->
+<!--Note: i made the div position: relative; so that i can move the position of the title to the middle of the div-->
+<div class = "div_header">
+
+   <!-- Two clickable icons, one for home, and the other for the shopping cart page. They are floating on the right and on the left.-->
+  <a href = "../index.html" class = "left_icon"><img src = "../IMAGES/book_icon.png" alt = "home page" height = 100px width = 100px /> </a>
+
+  <!--The title of the website-->
+  <!-- postion the title at the center using the absolute positioning -->
+  <h1 class = "title"><i>BookBuy &copy;</i></h1>
+  
+<!--Floated to the right-->
+  <a  href = "shopping_cart.html" class = "right_icon"> <img src = "../IMAGES/shopping_car.png" alt =" shopping cart" height=100px width=100px/> </a>
+
+  
+</div>
+
+
+
+
+
+<!--the title-->
+<div class = "link_section">
+
+<h1 class = "titles"> Shopping Carts</h1>
+</div>
+
+
+
+
+<!--The titles above the content of the cart. Here i used positioning-->
+<div style = "position:relative">
+<span class  = "titles"  > Book</span>
+<span class  = "titles " style = "position:absolute;left: 25%" > Name</span>
+<span class  = "titles" style = "position:absolute;left: 50%"> Price</span>
+</div> 
+
+<!--The div container that encloses the entire thing. it makes the background gold-->
+<div class ="paragraph_div">
+
+<!--Here each div is an item you are buying in the cart. We have two dives, one for each book-->
+<div style = "position:relative">
+  
+<!--The content of this div is : photo, the name of the book, the price of the book-->
+<img  class = "photo_size"    src = "../IMAGES/1984.jpg"/>
+
+<span class  = "titles " style = "position:absolute;bottom:50%;left:25%">1984</span>
+
+<span class = "titles" style = "position:absolute;bottom:50%;left:50%;"> 20&dollar;</span>
+
+</div>
+
+<!--This div is the same as the previous div. Note the use of positioning-->
+<div style = "position:relative">
+
+<img  class = "photo_size"    src = "../IMAGES/steve_jobs_book.jpg"/>
+
+<span class  = "titles " style = "position:absolute;bottom:50%;left:25%">Steve Jobs</span>
+
+<span class = "titles" style = "position:absolute;bottom:50%;left:50%;"> 50&dollar;</span>
+
+</div>
+
+
+
+
+
+</div>
+
+
+<div class = "titles">Subtotal = 70</div>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

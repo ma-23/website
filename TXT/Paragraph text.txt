@@ -1,0 +1,20 @@
+ Welcome to my website,<b>BookBuy</b>, A website dedicated to bookworms who enjoy books from all different type of categories. Instead of having to go to a physical library
+  in order to read, you can use the website to look for a specific book, put them in your wishlist,and even buy them. To learn more, go the features page to learn more.
+
+In this website, we will have a list of features. These features are:
+
+ Author: Mahmoud Eyad Abu hassnah
+
+ Welcome to the Science Book Club! We are re a group of curious minds passionate about exploring the cosmos,
+ the cell, and everything in between through the pages of compelling books.
+Each month, we dive into a new work of scientific literature.
+For instance, <cite>A Short History of Nearly Everything</cite> by Bill Bryson is a scientific book that we are discussing next week.
+
+Join now with us, and become one of us!
+
+i>Welcome to the Computer Science Club!</i> We're a dynamic community for students passionate about all things digital, 
+from the smallest line of code to the biggest technological ideas.
+We focus on hands-on learning, diving into topics 
+like programming languages, app development, algorithms, and even robotics
+
+Join now with us, and become a computer genius !

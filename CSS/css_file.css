@@ -1,0 +1,37 @@
+body{background-image:url(../IMAGES/background.jpeg)}
+.left_icon{float: left;}
+.right_icon{float:right}
+.title{position:absolute; left:45%}
+
+:root{--font:'Goudy Bookletter 1911' ,sans-serif;--font-size:x-large}
+
+.div_header{position:relative;height: 150px; background-color: gold; border-style:solid; border-color:black; border-width: 5px;}
+
+.position{position:absolute}
+
+.link_section{background-color:grey ; position: relative; border-style:solid;border-color: black; border-width:5px }
+
+.link_elem{display:inline-block}
+
+.list_style{list-style-type: none; margin-top:0px}
+
+.list_element{display: inline-block; margin-right:  15%;}
+
+.paragraph_div{background-color:goldenrod ; border-color: black;border-style: solid;}
+
+#quote{font-style:italic;font-weight: bold;}
+
+.paragraphs{font-family: var(--font); font-size:var(--font-size);}
+
+.titles{text-align:center;font-weight:bold;text-decoration: underline;font-style: italic;margin-top:0px;font-size:x-large}
+
+#features{list-style-type:upper-roman; font-family:var(--font);font-size:var(--font-size)}
+#email::before{content:"Email:"}
+
+.book_div{float:left; background-color: goldenrod; margin-left: 10%;margin-top: 5%;;border-style: solid;border-color:black;border-width:5px}
+#science{text-decoration: underline;}
+a:link{color:gold}
+a:visited{color:gold}
+.line{background-color:gold;height: 5px;  }
+.photo_size{height:200px;width:200px}
+#club_photo{float:right}
